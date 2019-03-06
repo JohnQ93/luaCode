@@ -25,3 +25,25 @@ do
 	print(a,b);
 end
 print(a,b);
+
+x,y = 10,20 --多变量同时赋值
+
+x,y,z = 15,25,"hello"
+
+print(x,y,z)
+
+x,y = y,x --直接交换值
+
+print(x,y)
+
+function test()
+	return 10,20
+end
+
+a = test()
+
+print(a)
+
+a,b = test()
+
+print(a,b)
