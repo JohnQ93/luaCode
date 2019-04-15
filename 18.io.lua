@@ -27,3 +27,9 @@ print(file:read())
 print(file:read())
 
 file:close()
+
+file = io.open("data1.txt", "a")
+
+file:write("\nNew Line")
+
+file:close()
