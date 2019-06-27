@@ -1,4 +1,3 @@
---[[
 str = type("Hello")
 print(str)
 
@@ -40,4 +39,3 @@ print(html)
 print(#str1)
 print(#str2)
 print(#html)
---]]

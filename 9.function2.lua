@@ -47,12 +47,18 @@ print(a,b,c,d,e)
 
 --函数可以定义可变参数
 function sum(...) --"..."表示可变参数，可以使用内置arg来访问，并且arg的最后一个值为参数个数
+
 	local arg = {...}  --声明一个本地表，并将可变参数赋值给它
 	local res = 0
 	for k,v in pairs(arg) do
 		res = res+v
 	end
 	print(res)
+--[[
+	for k,v in pairs(arg) do
+		print(k..":"..v)
+	end
+--]]
 end
 
 sum()
