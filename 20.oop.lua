@@ -17,7 +17,7 @@ end
 
 person1 = Person:new()
 
-print(person1:eat()) --冒号的作用，函数定义时，默认给函数添加隐藏的第一个参数self
+person1:eat() --冒号的作用，函数定义时，默认给函数添加隐藏的第一个参数self
 print(person1.name)
 
 person1.name="john"  --对属性进行修改不会对原型表做出修改，会赋值给tab;

@@ -20,7 +20,7 @@ str3 = string.lower(str)
 print(str,str2,str3)
 
 -- string.gsub(要替换的源字符串，目标字符区分大小写，要替换成的字符，最大替换多少个字符)
-str4 = string.gsub(str,"i","666",1)
+str4 = string.gsub(str,"i","666",2)
 
 print(str4)
 
